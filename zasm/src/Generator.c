@@ -52,6 +52,7 @@ static int64_t timespecDiff(struct timespec *timeA_p, struct timespec *timeB_p){
            ((timeB_p->tv_sec * 1000000000) + timeB_p->tv_nsec);
 }
 
+#include <time.h>
 
 int generate(Generator * gen){
     Parser parser = {0};

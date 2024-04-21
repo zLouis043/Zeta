@@ -1,6 +1,7 @@
 #ifndef ZASM_BYTEUTILS_H
 #define ZASM_BYTEUTILS_H
 
+#include <stdlib.h>
 #include <stdint.h>
 
 typedef uint8_t u8;

@@ -8,5 +8,5 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra")
 file (GLOB_RECURSE source_files ${PROJECT_SOURCE_DIR}/*.c)
 file (GLOB_RECURSE header_files ${PROJECT_SOURCE_DIR}/*.h)
 
-add_executable(zasm ${source_files} ${header_files})
+add_executable(zasm ${header_files} ${source_files})
 

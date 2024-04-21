@@ -2,6 +2,7 @@
 
 #include "common/Log.h"
 
+#include <time.h>
 #include <stdio.h>
 
 static int64_t timespecDiff(struct timespec *timeA_p, struct timespec *timeB_p){
@@ -264,8 +265,8 @@ void expand_dot(Prepass *pp, SV ident, Location loc){
 void expand_macro(Prepass * pp, Macro * mac){
 
     if(pp->curr_macro_depth >= 10){
-        log_(ERROR, &pp->curr.loc, "Cannot expand this recursive macro.");
-        PANIC(ERROR, &mac->value.items[0].loc, "Macro depth is greater than 10.");
+    log_(GENERIC_ERROR, &pp->curr.loc, "Cannot expand this recursive macro.");
+    PANIC(GENERIC_ERROR, &mac->value.items[0].loc, "Macro depth is greater than 10.");
     }
 
     pp->curr_macro_depth++;

@@ -2,6 +2,7 @@
 
 #include "common/Log.h"
 #include <stdio.h>
+#include <time.h>
 
 #define PANIC_EXPAND_TOK(LOG_LEVEL, TOK, ...) \
     log_(LOG_LEVEL, &TOK.loc, __VA_ARGS__);                                         \

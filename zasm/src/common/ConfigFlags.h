@@ -7,6 +7,8 @@
 #include <assert.h>  
 #include <string.h>  
 #include <stdint.h>
+#include <limits.h>
+#include <errno.h>
 
 typedef union{
     bool as_bool;

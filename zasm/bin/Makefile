@@ -129,6 +129,342 @@ zasm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/build
 .PHONY : zasm/fast
 
+FileReader.o: FileReader.c.o
+.PHONY : FileReader.o
+
+# target to build an object file
+FileReader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/FileReader.c.o
+.PHONY : FileReader.c.o
+
+FileReader.i: FileReader.c.i
+.PHONY : FileReader.i
+
+# target to preprocess a source file
+FileReader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/FileReader.c.i
+.PHONY : FileReader.c.i
+
+FileReader.s: FileReader.c.s
+.PHONY : FileReader.s
+
+# target to generate assembly for a file
+FileReader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/FileReader.c.s
+.PHONY : FileReader.c.s
+
+Generator.o: Generator.c.o
+.PHONY : Generator.o
+
+# target to build an object file
+Generator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Generator.c.o
+.PHONY : Generator.c.o
+
+Generator.i: Generator.c.i
+.PHONY : Generator.i
+
+# target to preprocess a source file
+Generator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Generator.c.i
+.PHONY : Generator.c.i
+
+Generator.s: Generator.c.s
+.PHONY : Generator.s
+
+# target to generate assembly for a file
+Generator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Generator.c.s
+.PHONY : Generator.c.s
+
+Lexer.o: Lexer.c.o
+.PHONY : Lexer.o
+
+# target to build an object file
+Lexer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Lexer.c.o
+.PHONY : Lexer.c.o
+
+Lexer.i: Lexer.c.i
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Lexer.c.i
+.PHONY : Lexer.c.i
+
+Lexer.s: Lexer.c.s
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Lexer.c.s
+.PHONY : Lexer.c.s
+
+Linezer.o: Linezer.c.o
+.PHONY : Linezer.o
+
+# target to build an object file
+Linezer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Linezer.c.o
+.PHONY : Linezer.c.o
+
+Linezer.i: Linezer.c.i
+.PHONY : Linezer.i
+
+# target to preprocess a source file
+Linezer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Linezer.c.i
+.PHONY : Linezer.c.i
+
+Linezer.s: Linezer.c.s
+.PHONY : Linezer.s
+
+# target to generate assembly for a file
+Linezer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Linezer.c.s
+.PHONY : Linezer.c.s
+
+OpCode.o: OpCode.c.o
+.PHONY : OpCode.o
+
+# target to build an object file
+OpCode.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/OpCode.c.o
+.PHONY : OpCode.c.o
+
+OpCode.i: OpCode.c.i
+.PHONY : OpCode.i
+
+# target to preprocess a source file
+OpCode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/OpCode.c.i
+.PHONY : OpCode.c.i
+
+OpCode.s: OpCode.c.s
+.PHONY : OpCode.s
+
+# target to generate assembly for a file
+OpCode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/OpCode.c.s
+.PHONY : OpCode.c.s
+
+Parser.o: Parser.c.o
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Parser.c.o
+.PHONY : Parser.c.o
+
+Parser.i: Parser.c.i
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Parser.c.i
+.PHONY : Parser.c.i
+
+Parser.s: Parser.c.s
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Parser.c.s
+.PHONY : Parser.c.s
+
+Prepass.o: Prepass.c.o
+.PHONY : Prepass.o
+
+# target to build an object file
+Prepass.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Prepass.c.o
+.PHONY : Prepass.c.o
+
+Prepass.i: Prepass.c.i
+.PHONY : Prepass.i
+
+# target to preprocess a source file
+Prepass.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Prepass.c.i
+.PHONY : Prepass.c.i
+
+Prepass.s: Prepass.c.s
+.PHONY : Prepass.s
+
+# target to generate assembly for a file
+Prepass.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Prepass.c.s
+.PHONY : Prepass.c.s
+
+Token.o: Token.c.o
+.PHONY : Token.o
+
+# target to build an object file
+Token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Token.c.o
+.PHONY : Token.c.o
+
+Token.i: Token.c.i
+.PHONY : Token.i
+
+# target to preprocess a source file
+Token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Token.c.i
+.PHONY : Token.c.i
+
+Token.s: Token.c.s
+.PHONY : Token.s
+
+# target to generate assembly for a file
+Token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/Token.c.s
+.PHONY : Token.c.s
+
+common/ByteUtils.o: common/ByteUtils.c.o
+.PHONY : common/ByteUtils.o
+
+# target to build an object file
+common/ByteUtils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ByteUtils.c.o
+.PHONY : common/ByteUtils.c.o
+
+common/ByteUtils.i: common/ByteUtils.c.i
+.PHONY : common/ByteUtils.i
+
+# target to preprocess a source file
+common/ByteUtils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ByteUtils.c.i
+.PHONY : common/ByteUtils.c.i
+
+common/ByteUtils.s: common/ByteUtils.c.s
+.PHONY : common/ByteUtils.s
+
+# target to generate assembly for a file
+common/ByteUtils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ByteUtils.c.s
+.PHONY : common/ByteUtils.c.s
+
+common/ConfigFlags.h.o: common/ConfigFlags.h.c.o
+.PHONY : common/ConfigFlags.h.o
+
+# target to build an object file
+common/ConfigFlags.h.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o
+.PHONY : common/ConfigFlags.h.c.o
+
+common/ConfigFlags.h.i: common/ConfigFlags.h.c.i
+.PHONY : common/ConfigFlags.h.i
+
+# target to preprocess a source file
+common/ConfigFlags.h.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ConfigFlags.h.c.i
+.PHONY : common/ConfigFlags.h.c.i
+
+common/ConfigFlags.h.s: common/ConfigFlags.h.c.s
+.PHONY : common/ConfigFlags.h.s
+
+# target to generate assembly for a file
+common/ConfigFlags.h.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/ConfigFlags.h.c.s
+.PHONY : common/ConfigFlags.h.c.s
+
+common/Hashmap.o: common/Hashmap.c.o
+.PHONY : common/Hashmap.o
+
+# target to build an object file
+common/Hashmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Hashmap.c.o
+.PHONY : common/Hashmap.c.o
+
+common/Hashmap.i: common/Hashmap.c.i
+.PHONY : common/Hashmap.i
+
+# target to preprocess a source file
+common/Hashmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Hashmap.c.i
+.PHONY : common/Hashmap.c.i
+
+common/Hashmap.s: common/Hashmap.c.s
+.PHONY : common/Hashmap.s
+
+# target to generate assembly for a file
+common/Hashmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Hashmap.c.s
+.PHONY : common/Hashmap.c.s
+
+common/Log.o: common/Log.c.o
+.PHONY : common/Log.o
+
+# target to build an object file
+common/Log.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Log.c.o
+.PHONY : common/Log.c.o
+
+common/Log.i: common/Log.c.i
+.PHONY : common/Log.i
+
+# target to preprocess a source file
+common/Log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Log.c.i
+.PHONY : common/Log.c.i
+
+common/Log.s: common/Log.c.s
+.PHONY : common/Log.s
+
+# target to generate assembly for a file
+common/Log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/Log.c.s
+.PHONY : common/Log.c.s
+
+common/SV.o: common/SV.c.o
+.PHONY : common/SV.o
+
+# target to build an object file
+common/SV.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/SV.c.o
+.PHONY : common/SV.c.o
+
+common/SV.i: common/SV.c.i
+.PHONY : common/SV.i
+
+# target to preprocess a source file
+common/SV.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/SV.c.i
+.PHONY : common/SV.c.i
+
+common/SV.s: common/SV.c.s
+.PHONY : common/SV.s
+
+# target to generate assembly for a file
+common/SV.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/SV.c.s
+.PHONY : common/SV.c.s
+
+common/cwalk.o: common/cwalk.c.o
+.PHONY : common/cwalk.o
+
+# target to build an object file
+common/cwalk.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/cwalk.c.o
+.PHONY : common/cwalk.c.o
+
+common/cwalk.i: common/cwalk.c.i
+.PHONY : common/cwalk.i
+
+# target to preprocess a source file
+common/cwalk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/cwalk.c.i
+.PHONY : common/cwalk.c.i
+
+common/cwalk.s: common/cwalk.c.s
+.PHONY : common/cwalk.s
+
+# target to generate assembly for a file
+common/cwalk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zasm.dir/build.make CMakeFiles/zasm.dir/common/cwalk.c.s
+.PHONY : common/cwalk.c.s
+
 zasm.o: zasm.c.o
 .PHONY : zasm.o
 
@@ -162,6 +498,48 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... zasm"
+	@echo "... FileReader.o"
+	@echo "... FileReader.i"
+	@echo "... FileReader.s"
+	@echo "... Generator.o"
+	@echo "... Generator.i"
+	@echo "... Generator.s"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
+	@echo "... Linezer.o"
+	@echo "... Linezer.i"
+	@echo "... Linezer.s"
+	@echo "... OpCode.o"
+	@echo "... OpCode.i"
+	@echo "... OpCode.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... Prepass.o"
+	@echo "... Prepass.i"
+	@echo "... Prepass.s"
+	@echo "... Token.o"
+	@echo "... Token.i"
+	@echo "... Token.s"
+	@echo "... common/ByteUtils.o"
+	@echo "... common/ByteUtils.i"
+	@echo "... common/ByteUtils.s"
+	@echo "... common/ConfigFlags.h.o"
+	@echo "... common/ConfigFlags.h.i"
+	@echo "... common/ConfigFlags.h.s"
+	@echo "... common/Hashmap.o"
+	@echo "... common/Hashmap.i"
+	@echo "... common/Hashmap.s"
+	@echo "... common/Log.o"
+	@echo "... common/Log.i"
+	@echo "... common/Log.s"
+	@echo "... common/SV.o"
+	@echo "... common/SV.i"
+	@echo "... common/SV.s"
+	@echo "... common/cwalk.o"
+	@echo "... common/cwalk.i"
+	@echo "... common/cwalk.s"
 	@echo "... zasm.o"
 	@echo "... zasm.i"
 	@echo "... zasm.s"

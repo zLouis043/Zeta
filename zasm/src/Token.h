@@ -2,6 +2,7 @@
 #define ZASM_TOKEN_H
 
 #include "common/SV.h"
+#include <stdbool.h>
 #include "common/CommonStructs.h"
 
 typedef enum _TokenType _TokenType;

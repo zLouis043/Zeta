@@ -2,9 +2,11 @@
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <time.h>
+#include <stdint.h>
 
 #include "common/DyArray.h"
-#include "common/HashMap.h"
+#include "common/Hashmap.h"
 #include "common/Log.h"
 
 struct keyword {

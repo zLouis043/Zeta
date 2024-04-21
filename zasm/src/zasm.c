@@ -3,7 +3,7 @@
 #include "common/ConfigFlags.h"
 #include "Generator.h"
 
-#include <sys/time.h>
+#include <time.h>
 
 
 int64_t timespecDiff(struct timespec *timeA_p, struct timespec *timeB_p)
