@@ -221,6 +221,7 @@ CMakeFiles/zasm.dir/Lexer.c.o: /dev/Coding/vme/zasm/src/Lexer.c \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /dev/Coding/vme/zasm/src/common/DyArray.h \
+  /dev/Coding/vme/zasm/src/common/Hashmap.h \
   /dev/Coding/vme/zasm/src/common/Log.h \
   /dev/Coding/vme/zasm/src/common/CommonStructs.h
 
