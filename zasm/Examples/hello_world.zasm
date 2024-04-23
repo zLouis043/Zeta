@@ -1,0 +1,10 @@
+INCLUDE "../Examples/std/std.zasm"
+
+ENTRY _start ;; Set the entry point of the program.
+            ;; Its fundamental to do this if your program has include files in it.
+
+_start:
+    push "Hello world!\n" call printf ;; Push the pointer of the string onto the stack and then call the print procedure
+    push "Hello world!\n" call strlen drop;; Push the pointer of the string onto the stack, call the strlen proc and exit with the
+                             ;; result of the procedure.
+end

@@ -1,0 +1,14 @@
+INCLUDE "../Examples/std/std.zasm"
+
+ENTRY _start
+
+MEMORY ptr 8
+
+_start:
+    push ptr push 20 alloc store ;; void *ptr_test = malloc(3);
+    push "Come ti chiami? " call printf drop
+    push ptr deref call scan
+    push "Ciao " call printf drop
+    push ptr deref call printf drop
+    push "!" call printf drop
+end

@@ -1,0 +1,23 @@
+INCLUDE "../Examples/std/std.zasm"
+
+ENTRY _start
+
+STRING STR_1 "Hello World\n",0
+STRING STR_2 "Hello World\n",0
+
+_start:
+        push STR_1 deref push STR_2 deref
+        call strcmp
+        swap
+        push "First string: " call printf drop
+        call printf drop
+        cmp 1 jmp_ne .not_true
+    .true:
+        push "==\n" call printf drop jmp .end_if
+    .not_true:
+        push "!=\n" call printf drop
+    .end_if:
+        push "Second string: " call printf drop
+        call printf drop
+        push 0 exit
+end

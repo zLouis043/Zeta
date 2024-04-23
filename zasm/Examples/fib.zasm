@@ -1,0 +1,134 @@
+;; This is an example of the Fibonacci sequence in ZASM
+
+INCLUDE "../Examples/std/std.zasm"  ;; Include the standard library
+
+CONST ITERATIONS    DI 42           ;; Set the iterations of the fib sequence
+CONST LIMIT         DI 1000000000   ;; Set the limit of the fib sequence
+CONST START1        DI 0            ;; Set the first initial value
+CONST START2        DI 1            ;; Set the second initial value
+CONST EXIT_VALUE    DI 420          ;; Set the exit value
+CONST LINE_LEN DI 40
+
+STRING INIT_STR             "Fib proc with limit of ",                  NULL_B
+STRING VALUE_IS             "\tValue is: ",                             NULL_B
+STRING END_IS               "Final value is: ",                         NULL_B
+
+STRING FIB_SEQ              "Fib sequence: \n",                         NULL_B
+STRING VALUE_FOR_ITER       "\tValue for iter ",                        NULL_B
+STRING IS                   " is: ",                                    NULL_B
+STRING FINAL_VAL_IS         "Final value of fibonacci sequence for ",   NULL_B
+STRING ITER                 " iterations is: ",                         NULL_B
+STRING LIM                  " as limit is: ",                           NULL_B
+
+ENTRY start
+
+draw_line:
+    ;; needed line len
+    .loop:
+        dup 0
+        cmp 0
+        jmp_le .loop_end
+        push '.' dump
+        push 1 subI
+        jmp .loop
+
+    .loop_end:
+        drop
+        push '\n' dump
+ret
+
+init:
+    push INIT_STR deref call printf  drop
+    push $LIMIT dump
+    push '\n' dump
+    push $LINE_LEN call draw_line
+ret
+
+fib_proc_1:
+
+    call init
+
+    .loop:
+        dup 1 ;; duplicate the value two places above in the stack
+        dup 1 ;; duplicate the value two places above in the stack
+        addI ;; pop the two top values on the stack, add them and then push the result on the stack
+        dup 1 ;; get previous value
+        dup 0 ;; duplicate for comparison
+        push VALUE_IS deref call printf drop        ;; write
+        dump push '\n' dump ;;  printing the value
+        cmp $LIMIT ;; compare with the limit
+        jmp_l .loop ;; jump if the current value is less than limit
+
+    drop
+    dup 0
+    push $LINE_LEN call draw_line  ;; draw separation line
+    push FINAL_VAL_IS deref call printf drop ;; print(FINAL_VAL_IS);
+    push $LIMIT dump ;; write(N)
+    push LIM deref call printf drop ;; print(LIM);
+    dump ;; write(return val of fib_back_trace(T, N, A, B));
+    push '\n' dump ;; write('\n');
+ret ;; returns from the function to the function call
+
+print_val_for_iter:
+    push VALUE_FOR_ITER deref call printf drop
+    get R2 dump
+    push IS deref call printf drop
+    dup 1 dump
+    push '\n' dump
+ret
+
+CONST T DI TRUE
+CONST N DI 45
+CONST A DI 0
+CONST B DI 1
+
+fib_back_trace: ;; T n a b
+    dup 3 ;; T n a b T
+    cmp FALSE ;; T n a b
+    jmp_e .not_print
+    call print_val_for_iter
+    .not_print:
+    dup 2 ;; T n a b n
+    cmp 0 ;; T n a b
+    jmp_e .ret_a
+    dup 3 ;; T n a b T
+    dup 3 ;; T n a b T n
+    push 1  ;; T n a b T n 1
+    subI ;; T n a b T (n-1)
+    dup 2 ;; T n a b T (n-1) b
+    dup 0 ;; T n a b T (n-1) b b
+    dup 5 ;; T n a b T (n-1) b b a
+    addI ;; T n a b T (n-1) b (b+a)
+    get R2 push 1 addI move R2
+    call fib_back_trace ;; fib_back_trace(T, n-1, b, a+b)
+    .ret_a:
+        dup 1
+ret
+
+start:
+
+    push $LINE_LEN call draw_line  ;; draw separation line
+
+    push $START1        ;; push initial value
+    push $START2        ;; push second initial value
+    call fib_proc_1     ;; calls the fibonacci sequence procedure that uses only the stack
+
+    push $T cmp FALSE jmp_e .else_t ;; if(t){
+
+        push $LINE_LEN call draw_line ;; draw_line(LINE_LEN);
+        push FIB_SEQ deref call printf drop ;; print(FIB_SEQ);
+
+    .else_t: ;; } else {
+
+        clean R2
+        push $T push $N push $A push $B call fib_back_trace ;; fib_back_trace(T, N, A, B);
+        push $LINE_LEN call draw_line ;; draw_line(LINE_LEN);
+        push FINAL_VAL_IS deref call printf drop ;; print(FINAL_VAL_IS);
+        push $N dump ;; write(N)
+        push ITER deref call printf drop ;; print(ITER);
+        drop dump ;; write(return val of fib_back_trace(T, N, A, B));
+        push '\n' dump ;; write('\n');
+        push $LINE_LEN call draw_line ;; draw_line(LINE_LEN);
+
+    end ;; }
+end ;; }

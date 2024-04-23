@@ -1,0 +1,52 @@
+;; DO NOT EXECUTE THIS FILE
+
+INCLUDE "../Examples/std/common_macros.zasm"
+INCLUDE "../Examples/std/io.zasm"
+INCLUDE "../Examples/std/string.zasm"
+
+MACRO ALLOC_SYSCALL 4 MACRO_END
+MACRO FREE_SYSCALL 5 MACRO_END
+
+MACRO   ;; SYSCALL MACRO
+        syscall [syscall_id, n_arguments]
+        push syscall_id ;; syscall type
+        push n_arguments ;; arguments number
+        internal ;; syscall intrinsic operation
+MACRO_END
+
+MACRO alloc
+   syscall ALLOC_SYSCALL 1
+MACRO_END
+
+MACRO free
+   syscall FREE_SYSCALL 1
+MACRO_END
+
+MACRO curr_loc_print
+    push CURR_FILE deref call printf drop push ':' dump push CURR_LINE dump push ':' dump push CURR_COL dump
+MACRO_END
+
+scan:
+    .loop:
+    push STDIN
+    dup 1
+    push 1
+    read
+    dup 0
+    deref
+    cast CHAR
+    cmp '\n'
+    jmp_e .end_loop
+    push 1
+    addI
+    jmp .loop
+    .end_loop:
+    push '\0' store
+ret
+
+printf:
+    push STDOUT ;; fd
+    dup 1 ;; src_buff
+    dup 0 call strlen ;; n_bytes
+    write ;; write internal call
+ret

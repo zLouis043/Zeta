@@ -1,0 +1,9 @@
+MACRO TRUE 1 MACRO_END
+MACRO FALSE 0 MACRO_END
+
+MACRO inc push 1 addI MACRO_END ;; cast to char so that the interpreter always cast the result to the input type
+MACRO dec push 1 subI MACRO_END
+
+MACRO NULL 0 cast PTR MACRO_END
+MACRO NULL_B 0 MACRO_END
+

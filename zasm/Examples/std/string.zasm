@@ -1,0 +1,48 @@
+
+strlen:
+    get R2 move R8
+    move R1
+    push 0 move R2
+    .loop:
+        get R1
+        deref
+        cmp '\0' jmp_e .end_loop
+        get R1 push 1 addI move R1
+        get R2 push 1 addI move R2
+        jmp .loop
+    .end_loop:
+        get R2
+        get R8 move R2
+ret
+
+strcmp: ;; ptr ptr
+    get R1 move R7 get R2 move R8
+    dup 1
+    dup 1
+    dup 1 call strlen
+    dup 1 call strlen
+    subI
+    cmp 0
+    move R2
+    move R1
+    jmp_ne .not_equal
+    .loop:
+        get R1 deref
+        cmp '\0'
+        jmp_e .equal
+        get R1 deref
+        get R2 deref
+        subC cast INTEGER
+        cmp 0
+        jmp_ne .not_equal
+        get R1 push 1 addI move R1
+        get R2 push 1 addI move R2
+        jmp .loop
+    .not_equal:
+        push FALSE
+        jmp .end_cmp
+    .equal:
+        push TRUE
+    .end_cmp:
+        get R7 move R1 get R8 move R2
+ret
