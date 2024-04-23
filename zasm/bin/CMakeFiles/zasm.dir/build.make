@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /dev/Coding/vme/zasm/src
+CMAKE_SOURCE_DIR = /home/luizi/Documenti/Coding/zve/zasm/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /dev/Coding/vme/zasm/bin
+CMAKE_BINARY_DIR = /home/luizi/Documenti/Coding/zve/zasm/bin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zasm.dir/depend.make
@@ -70,214 +70,214 @@ include CMakeFiles/zasm.dir/progress.make
 include CMakeFiles/zasm.dir/flags.make
 
 CMakeFiles/zasm.dir/FileReader.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/FileReader.c.o: /dev/Coding/vme/zasm/src/FileReader.c
+CMakeFiles/zasm.dir/FileReader.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/FileReader.c
 CMakeFiles/zasm.dir/FileReader.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zasm.dir/FileReader.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/FileReader.c.o -MF CMakeFiles/zasm.dir/FileReader.c.o.d -o CMakeFiles/zasm.dir/FileReader.c.o -c /dev/Coding/vme/zasm/src/FileReader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zasm.dir/FileReader.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/FileReader.c.o -MF CMakeFiles/zasm.dir/FileReader.c.o.d -o CMakeFiles/zasm.dir/FileReader.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/FileReader.c
 
 CMakeFiles/zasm.dir/FileReader.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/FileReader.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/FileReader.c > CMakeFiles/zasm.dir/FileReader.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/FileReader.c > CMakeFiles/zasm.dir/FileReader.c.i
 
 CMakeFiles/zasm.dir/FileReader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/FileReader.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/FileReader.c -o CMakeFiles/zasm.dir/FileReader.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/FileReader.c -o CMakeFiles/zasm.dir/FileReader.c.s
 
 CMakeFiles/zasm.dir/Generator.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Generator.c.o: /dev/Coding/vme/zasm/src/Generator.c
+CMakeFiles/zasm.dir/Generator.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Generator.c
 CMakeFiles/zasm.dir/Generator.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zasm.dir/Generator.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Generator.c.o -MF CMakeFiles/zasm.dir/Generator.c.o.d -o CMakeFiles/zasm.dir/Generator.c.o -c /dev/Coding/vme/zasm/src/Generator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zasm.dir/Generator.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Generator.c.o -MF CMakeFiles/zasm.dir/Generator.c.o.d -o CMakeFiles/zasm.dir/Generator.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Generator.c
 
 CMakeFiles/zasm.dir/Generator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Generator.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Generator.c > CMakeFiles/zasm.dir/Generator.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Generator.c > CMakeFiles/zasm.dir/Generator.c.i
 
 CMakeFiles/zasm.dir/Generator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Generator.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Generator.c -o CMakeFiles/zasm.dir/Generator.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Generator.c -o CMakeFiles/zasm.dir/Generator.c.s
 
 CMakeFiles/zasm.dir/Lexer.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Lexer.c.o: /dev/Coding/vme/zasm/src/Lexer.c
+CMakeFiles/zasm.dir/Lexer.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.c
 CMakeFiles/zasm.dir/Lexer.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zasm.dir/Lexer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Lexer.c.o -MF CMakeFiles/zasm.dir/Lexer.c.o.d -o CMakeFiles/zasm.dir/Lexer.c.o -c /dev/Coding/vme/zasm/src/Lexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zasm.dir/Lexer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Lexer.c.o -MF CMakeFiles/zasm.dir/Lexer.c.o.d -o CMakeFiles/zasm.dir/Lexer.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.c
 
 CMakeFiles/zasm.dir/Lexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Lexer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Lexer.c > CMakeFiles/zasm.dir/Lexer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.c > CMakeFiles/zasm.dir/Lexer.c.i
 
 CMakeFiles/zasm.dir/Lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Lexer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Lexer.c -o CMakeFiles/zasm.dir/Lexer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.c -o CMakeFiles/zasm.dir/Lexer.c.s
 
 CMakeFiles/zasm.dir/Linezer.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Linezer.c.o: /dev/Coding/vme/zasm/src/Linezer.c
+CMakeFiles/zasm.dir/Linezer.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Linezer.c
 CMakeFiles/zasm.dir/Linezer.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zasm.dir/Linezer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Linezer.c.o -MF CMakeFiles/zasm.dir/Linezer.c.o.d -o CMakeFiles/zasm.dir/Linezer.c.o -c /dev/Coding/vme/zasm/src/Linezer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zasm.dir/Linezer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Linezer.c.o -MF CMakeFiles/zasm.dir/Linezer.c.o.d -o CMakeFiles/zasm.dir/Linezer.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Linezer.c
 
 CMakeFiles/zasm.dir/Linezer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Linezer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Linezer.c > CMakeFiles/zasm.dir/Linezer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Linezer.c > CMakeFiles/zasm.dir/Linezer.c.i
 
 CMakeFiles/zasm.dir/Linezer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Linezer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Linezer.c -o CMakeFiles/zasm.dir/Linezer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Linezer.c -o CMakeFiles/zasm.dir/Linezer.c.s
 
 CMakeFiles/zasm.dir/OpCode.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/OpCode.c.o: /dev/Coding/vme/zasm/src/OpCode.c
+CMakeFiles/zasm.dir/OpCode.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.c
 CMakeFiles/zasm.dir/OpCode.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zasm.dir/OpCode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/OpCode.c.o -MF CMakeFiles/zasm.dir/OpCode.c.o.d -o CMakeFiles/zasm.dir/OpCode.c.o -c /dev/Coding/vme/zasm/src/OpCode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zasm.dir/OpCode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/OpCode.c.o -MF CMakeFiles/zasm.dir/OpCode.c.o.d -o CMakeFiles/zasm.dir/OpCode.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.c
 
 CMakeFiles/zasm.dir/OpCode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/OpCode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/OpCode.c > CMakeFiles/zasm.dir/OpCode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.c > CMakeFiles/zasm.dir/OpCode.c.i
 
 CMakeFiles/zasm.dir/OpCode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/OpCode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/OpCode.c -o CMakeFiles/zasm.dir/OpCode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.c -o CMakeFiles/zasm.dir/OpCode.c.s
 
 CMakeFiles/zasm.dir/Parser.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Parser.c.o: /dev/Coding/vme/zasm/src/Parser.c
+CMakeFiles/zasm.dir/Parser.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Parser.c
 CMakeFiles/zasm.dir/Parser.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zasm.dir/Parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Parser.c.o -MF CMakeFiles/zasm.dir/Parser.c.o.d -o CMakeFiles/zasm.dir/Parser.c.o -c /dev/Coding/vme/zasm/src/Parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zasm.dir/Parser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Parser.c.o -MF CMakeFiles/zasm.dir/Parser.c.o.d -o CMakeFiles/zasm.dir/Parser.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Parser.c
 
 CMakeFiles/zasm.dir/Parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Parser.c > CMakeFiles/zasm.dir/Parser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Parser.c > CMakeFiles/zasm.dir/Parser.c.i
 
 CMakeFiles/zasm.dir/Parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Parser.c -o CMakeFiles/zasm.dir/Parser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Parser.c -o CMakeFiles/zasm.dir/Parser.c.s
 
 CMakeFiles/zasm.dir/Prepass.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Prepass.c.o: /dev/Coding/vme/zasm/src/Prepass.c
+CMakeFiles/zasm.dir/Prepass.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Prepass.c
 CMakeFiles/zasm.dir/Prepass.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zasm.dir/Prepass.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Prepass.c.o -MF CMakeFiles/zasm.dir/Prepass.c.o.d -o CMakeFiles/zasm.dir/Prepass.c.o -c /dev/Coding/vme/zasm/src/Prepass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zasm.dir/Prepass.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Prepass.c.o -MF CMakeFiles/zasm.dir/Prepass.c.o.d -o CMakeFiles/zasm.dir/Prepass.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Prepass.c
 
 CMakeFiles/zasm.dir/Prepass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Prepass.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Prepass.c > CMakeFiles/zasm.dir/Prepass.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Prepass.c > CMakeFiles/zasm.dir/Prepass.c.i
 
 CMakeFiles/zasm.dir/Prepass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Prepass.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Prepass.c -o CMakeFiles/zasm.dir/Prepass.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Prepass.c -o CMakeFiles/zasm.dir/Prepass.c.s
 
 CMakeFiles/zasm.dir/Token.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/Token.c.o: /dev/Coding/vme/zasm/src/Token.c
+CMakeFiles/zasm.dir/Token.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/Token.c
 CMakeFiles/zasm.dir/Token.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zasm.dir/Token.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Token.c.o -MF CMakeFiles/zasm.dir/Token.c.o.d -o CMakeFiles/zasm.dir/Token.c.o -c /dev/Coding/vme/zasm/src/Token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zasm.dir/Token.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/Token.c.o -MF CMakeFiles/zasm.dir/Token.c.o.d -o CMakeFiles/zasm.dir/Token.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/Token.c
 
 CMakeFiles/zasm.dir/Token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/Token.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/Token.c > CMakeFiles/zasm.dir/Token.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/Token.c > CMakeFiles/zasm.dir/Token.c.i
 
 CMakeFiles/zasm.dir/Token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/Token.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/Token.c -o CMakeFiles/zasm.dir/Token.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/Token.c -o CMakeFiles/zasm.dir/Token.c.s
 
 CMakeFiles/zasm.dir/common/ByteUtils.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/ByteUtils.c.o: /dev/Coding/vme/zasm/src/common/ByteUtils.c
+CMakeFiles/zasm.dir/common/ByteUtils.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.c
 CMakeFiles/zasm.dir/common/ByteUtils.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zasm.dir/common/ByteUtils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/ByteUtils.c.o -MF CMakeFiles/zasm.dir/common/ByteUtils.c.o.d -o CMakeFiles/zasm.dir/common/ByteUtils.c.o -c /dev/Coding/vme/zasm/src/common/ByteUtils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zasm.dir/common/ByteUtils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/ByteUtils.c.o -MF CMakeFiles/zasm.dir/common/ByteUtils.c.o.d -o CMakeFiles/zasm.dir/common/ByteUtils.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.c
 
 CMakeFiles/zasm.dir/common/ByteUtils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/ByteUtils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/ByteUtils.c > CMakeFiles/zasm.dir/common/ByteUtils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.c > CMakeFiles/zasm.dir/common/ByteUtils.c.i
 
 CMakeFiles/zasm.dir/common/ByteUtils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/ByteUtils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/ByteUtils.c -o CMakeFiles/zasm.dir/common/ByteUtils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.c -o CMakeFiles/zasm.dir/common/ByteUtils.c.s
 
 CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o: /dev/Coding/vme/zasm/src/common/ConfigFlags.h.c
+CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h.c
 CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o -MF CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o.d -o CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o -c /dev/Coding/vme/zasm/src/common/ConfigFlags.h.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o -MF CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o.d -o CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h.c
 
 CMakeFiles/zasm.dir/common/ConfigFlags.h.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/ConfigFlags.h.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/ConfigFlags.h.c > CMakeFiles/zasm.dir/common/ConfigFlags.h.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h.c > CMakeFiles/zasm.dir/common/ConfigFlags.h.c.i
 
 CMakeFiles/zasm.dir/common/ConfigFlags.h.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/ConfigFlags.h.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/ConfigFlags.h.c -o CMakeFiles/zasm.dir/common/ConfigFlags.h.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h.c -o CMakeFiles/zasm.dir/common/ConfigFlags.h.c.s
 
 CMakeFiles/zasm.dir/common/Hashmap.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/Hashmap.c.o: /dev/Coding/vme/zasm/src/common/Hashmap.c
+CMakeFiles/zasm.dir/common/Hashmap.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.c
 CMakeFiles/zasm.dir/common/Hashmap.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zasm.dir/common/Hashmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/Hashmap.c.o -MF CMakeFiles/zasm.dir/common/Hashmap.c.o.d -o CMakeFiles/zasm.dir/common/Hashmap.c.o -c /dev/Coding/vme/zasm/src/common/Hashmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zasm.dir/common/Hashmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/Hashmap.c.o -MF CMakeFiles/zasm.dir/common/Hashmap.c.o.d -o CMakeFiles/zasm.dir/common/Hashmap.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.c
 
 CMakeFiles/zasm.dir/common/Hashmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/Hashmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/Hashmap.c > CMakeFiles/zasm.dir/common/Hashmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.c > CMakeFiles/zasm.dir/common/Hashmap.c.i
 
 CMakeFiles/zasm.dir/common/Hashmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/Hashmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/Hashmap.c -o CMakeFiles/zasm.dir/common/Hashmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.c -o CMakeFiles/zasm.dir/common/Hashmap.c.s
 
 CMakeFiles/zasm.dir/common/Log.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/Log.c.o: /dev/Coding/vme/zasm/src/common/Log.c
+CMakeFiles/zasm.dir/common/Log.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.c
 CMakeFiles/zasm.dir/common/Log.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zasm.dir/common/Log.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/Log.c.o -MF CMakeFiles/zasm.dir/common/Log.c.o.d -o CMakeFiles/zasm.dir/common/Log.c.o -c /dev/Coding/vme/zasm/src/common/Log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zasm.dir/common/Log.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/Log.c.o -MF CMakeFiles/zasm.dir/common/Log.c.o.d -o CMakeFiles/zasm.dir/common/Log.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.c
 
 CMakeFiles/zasm.dir/common/Log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/Log.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/Log.c > CMakeFiles/zasm.dir/common/Log.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.c > CMakeFiles/zasm.dir/common/Log.c.i
 
 CMakeFiles/zasm.dir/common/Log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/Log.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/Log.c -o CMakeFiles/zasm.dir/common/Log.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.c -o CMakeFiles/zasm.dir/common/Log.c.s
 
 CMakeFiles/zasm.dir/common/SV.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/SV.c.o: /dev/Coding/vme/zasm/src/common/SV.c
+CMakeFiles/zasm.dir/common/SV.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.c
 CMakeFiles/zasm.dir/common/SV.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zasm.dir/common/SV.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/SV.c.o -MF CMakeFiles/zasm.dir/common/SV.c.o.d -o CMakeFiles/zasm.dir/common/SV.c.o -c /dev/Coding/vme/zasm/src/common/SV.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zasm.dir/common/SV.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/SV.c.o -MF CMakeFiles/zasm.dir/common/SV.c.o.d -o CMakeFiles/zasm.dir/common/SV.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.c
 
 CMakeFiles/zasm.dir/common/SV.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/SV.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/SV.c > CMakeFiles/zasm.dir/common/SV.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.c > CMakeFiles/zasm.dir/common/SV.c.i
 
 CMakeFiles/zasm.dir/common/SV.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/SV.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/SV.c -o CMakeFiles/zasm.dir/common/SV.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.c -o CMakeFiles/zasm.dir/common/SV.c.s
 
 CMakeFiles/zasm.dir/common/cwalk.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/common/cwalk.c.o: /dev/Coding/vme/zasm/src/common/cwalk.c
+CMakeFiles/zasm.dir/common/cwalk.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.c
 CMakeFiles/zasm.dir/common/cwalk.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zasm.dir/common/cwalk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/cwalk.c.o -MF CMakeFiles/zasm.dir/common/cwalk.c.o.d -o CMakeFiles/zasm.dir/common/cwalk.c.o -c /dev/Coding/vme/zasm/src/common/cwalk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zasm.dir/common/cwalk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/common/cwalk.c.o -MF CMakeFiles/zasm.dir/common/cwalk.c.o.d -o CMakeFiles/zasm.dir/common/cwalk.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.c
 
 CMakeFiles/zasm.dir/common/cwalk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/common/cwalk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/common/cwalk.c > CMakeFiles/zasm.dir/common/cwalk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.c > CMakeFiles/zasm.dir/common/cwalk.c.i
 
 CMakeFiles/zasm.dir/common/cwalk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/common/cwalk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/common/cwalk.c -o CMakeFiles/zasm.dir/common/cwalk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.c -o CMakeFiles/zasm.dir/common/cwalk.c.s
 
 CMakeFiles/zasm.dir/zasm.c.o: CMakeFiles/zasm.dir/flags.make
-CMakeFiles/zasm.dir/zasm.c.o: /dev/Coding/vme/zasm/src/zasm.c
+CMakeFiles/zasm.dir/zasm.c.o: /home/luizi/Documenti/Coding/zve/zasm/src/zasm.c
 CMakeFiles/zasm.dir/zasm.c.o: CMakeFiles/zasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zasm.dir/zasm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/zasm.c.o -MF CMakeFiles/zasm.dir/zasm.c.o.d -o CMakeFiles/zasm.dir/zasm.c.o -c /dev/Coding/vme/zasm/src/zasm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zasm.dir/zasm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zasm.dir/zasm.c.o -MF CMakeFiles/zasm.dir/zasm.c.o.d -o CMakeFiles/zasm.dir/zasm.c.o -c /home/luizi/Documenti/Coding/zve/zasm/src/zasm.c
 
 CMakeFiles/zasm.dir/zasm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zasm.dir/zasm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /dev/Coding/vme/zasm/src/zasm.c > CMakeFiles/zasm.dir/zasm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luizi/Documenti/Coding/zve/zasm/src/zasm.c > CMakeFiles/zasm.dir/zasm.c.i
 
 CMakeFiles/zasm.dir/zasm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zasm.dir/zasm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /dev/Coding/vme/zasm/src/zasm.c -o CMakeFiles/zasm.dir/zasm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luizi/Documenti/Coding/zve/zasm/src/zasm.c -o CMakeFiles/zasm.dir/zasm.c.s
 
 # Object files for target zasm
 zasm_OBJECTS = \
@@ -317,7 +317,7 @@ zasm: CMakeFiles/zasm.dir/common/cwalk.c.o
 zasm: CMakeFiles/zasm.dir/zasm.c.o
 zasm: CMakeFiles/zasm.dir/build.make
 zasm: CMakeFiles/zasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/dev/Coding/vme/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable zasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable zasm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zasm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -329,6 +329,6 @@ CMakeFiles/zasm.dir/clean:
 .PHONY : CMakeFiles/zasm.dir/clean
 
 CMakeFiles/zasm.dir/depend:
-	cd /dev/Coding/vme/zasm/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /dev/Coding/vme/zasm/src /dev/Coding/vme/zasm/src /dev/Coding/vme/zasm/bin /dev/Coding/vme/zasm/bin /dev/Coding/vme/zasm/bin/CMakeFiles/zasm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luizi/Documenti/Coding/zve/zasm/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luizi/Documenti/Coding/zve/zasm/src /home/luizi/Documenti/Coding/zve/zasm/src /home/luizi/Documenti/Coding/zve/zasm/bin /home/luizi/Documenti/Coding/zve/zasm/bin /home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles/zasm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zasm.dir/depend
 

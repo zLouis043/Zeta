@@ -1,6 +1,8 @@
 CMakeFiles/zasm.dir/common/ByteUtils.c.o: \
- /dev/Coding/vme/zasm/src/common/ByteUtils.c /usr/include/stdc-predef.h \
- /dev/Coding/vme/zasm/src/common/ByteUtils.h /usr/include/stdlib.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

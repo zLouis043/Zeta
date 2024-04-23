@@ -1,6 +1,9 @@
-CMakeFiles/zasm.dir/Token.c.o: /dev/Coding/vme/zasm/src/Token.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/Token.h \
- /dev/Coding/vme/zasm/src/common/SV.h /usr/include/stdlib.h \
+CMakeFiles/zasm.dir/Token.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Token.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Token.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -41,9 +44,9 @@ CMakeFiles/zasm.dir/Token.c.o: /dev/Coding/vme/zasm/src/Token.c \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h \
- /dev/Coding/vme/zasm/src/common/SV.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \

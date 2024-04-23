@@ -1,5 +1,7 @@
-CMakeFiles/zasm.dir/common/SV.c.o: /dev/Coding/vme/zasm/src/common/SV.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/common/SV.h \
+CMakeFiles/zasm.dir/common/SV.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

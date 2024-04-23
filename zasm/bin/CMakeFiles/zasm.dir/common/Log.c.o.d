@@ -1,7 +1,10 @@
-CMakeFiles/zasm.dir/common/Log.c.o: /dev/Coding/vme/zasm/src/common/Log.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/common/Log.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h \
- /dev/Coding/vme/zasm/src/common/SV.h /usr/include/stdlib.h \
+CMakeFiles/zasm.dir/common/Log.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

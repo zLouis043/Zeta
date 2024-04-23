@@ -1,6 +1,7 @@
 CMakeFiles/zasm.dir/common/ConfigFlags.h.c.o: \
- /dev/Coding/vme/zasm/src/common/ConfigFlags.h.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/common/ConfigFlags.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

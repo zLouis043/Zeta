@@ -1,7 +1,10 @@
-CMakeFiles/zasm.dir/zasm.c.o: /dev/Coding/vme/zasm/src/zasm.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/common/Log.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h \
- /dev/Coding/vme/zasm/src/common/SV.h /usr/include/stdlib.h \
+CMakeFiles/zasm.dir/zasm.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/zasm.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -41,10 +44,10 @@ CMakeFiles/zasm.dir/zasm.c.o: /dev/Coding/vme/zasm/src/zasm.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /dev/Coding/vme/zasm/src/common/Configs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Configs.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /dev/Coding/vme/zasm/src/common/ConfigFlags.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ConfigFlags.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -69,8 +72,8 @@ CMakeFiles/zasm.dir/zasm.c.o: /dev/Coding/vme/zasm/src/zasm.c \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /dev/Coding/vme/zasm/src/Generator.h \
- /dev/Coding/vme/zasm/src/common/Hashmap.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Generator.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h

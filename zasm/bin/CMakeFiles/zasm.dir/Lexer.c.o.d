@@ -1,6 +1,9 @@
-CMakeFiles/zasm.dir/Lexer.c.o: /dev/Coding/vme/zasm/src/Lexer.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/Lexer.h \
- /dev/Coding/vme/zasm/src/Linezer.h /dev/Coding/vme/zasm/src/common/SV.h \
+CMakeFiles/zasm.dir/Lexer.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Lexer.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Linezer.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -41,11 +44,11 @@ CMakeFiles/zasm.dir/Lexer.c.o: /dev/Coding/vme/zasm/src/Lexer.c \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /dev/Coding/vme/zasm/src/Token.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Token.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h \
- /dev/Coding/vme/zasm/src/common/SV.h \
- /dev/Coding/vme/zasm/src/common/Configs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Configs.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -63,7 +66,7 @@ CMakeFiles/zasm.dir/Lexer.c.o: /dev/Coding/vme/zasm/src/Lexer.c \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /dev/Coding/vme/zasm/src/common/DyArray.h \
- /dev/Coding/vme/zasm/src/common/Hashmap.h \
- /dev/Coding/vme/zasm/src/common/Log.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/DyArray.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Hashmap.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/Log.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h

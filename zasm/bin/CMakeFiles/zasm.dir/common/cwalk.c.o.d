@@ -1,6 +1,6 @@
 CMakeFiles/zasm.dir/common/cwalk.c.o: \
- /dev/Coding/vme/zasm/src/common/cwalk.c /usr/include/stdc-predef.h \
- /usr/include/assert.h /usr/include/features.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.c \
+ /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -15,7 +15,7 @@ CMakeFiles/zasm.dir/common/cwalk.c.o: \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /dev/Coding/vme/zasm/src/common/cwalk.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/cwalk.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/stdio.h \

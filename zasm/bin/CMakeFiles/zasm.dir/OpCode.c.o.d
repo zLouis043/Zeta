@@ -1,6 +1,9 @@
-CMakeFiles/zasm.dir/OpCode.c.o: /dev/Coding/vme/zasm/src/OpCode.c \
- /usr/include/stdc-predef.h /dev/Coding/vme/zasm/src/OpCode.h \
- /dev/Coding/vme/zasm/src/common/ByteUtils.h /usr/include/stdlib.h \
+CMakeFiles/zasm.dir/OpCode.c.o: \
+ /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.c \
+ /usr/include/stdc-predef.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/OpCode.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/ByteUtils.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -43,9 +46,10 @@ CMakeFiles/zasm.dir/OpCode.c.o: /dev/Coding/vme/zasm/src/OpCode.c \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /dev/Coding/vme/zasm/src/common/CommonStructs.h \
- /dev/Coding/vme/zasm/src/common/SV.h /dev/Coding/vme/zasm/src/Token.h \
- /dev/Coding/vme/zasm/src/common/SV.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/CommonStructs.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/Token.h \
+ /home/luizi/Documenti/Coding/zve/zasm/src/common/SV.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

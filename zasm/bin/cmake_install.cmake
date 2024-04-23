@@ -1,4 +1,4 @@
-# Install script for directory: /dev/Coding/vme/zasm/src
+# Install script for directory: /home/luizi/Documenti/Coding/zve/zasm/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/dev/Coding/vme/zasm/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luizi/Documenti/Coding/zve/zasm/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd bin
-./zasm ../Examples/test.zasm -dinfo
+./zasm ../Examples/hello_world.zasm -dinfo 
 cd .. 
