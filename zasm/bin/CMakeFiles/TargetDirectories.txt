@@ -1,3 +1,0 @@
-/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles/zasm.dir
-/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles/edit_cache.dir
-/home/luizi/Documenti/Coding/zve/zasm/bin/CMakeFiles/rebuild_cache.dir
