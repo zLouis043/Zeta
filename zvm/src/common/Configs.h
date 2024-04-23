@@ -2,6 +2,7 @@
 #define ZASM_CONFIGS_H
 
 #include "SV.h"
+#include <stdbool.h>
 
 typedef struct Configs Configs;
 

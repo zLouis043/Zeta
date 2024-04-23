@@ -38,7 +38,7 @@ void vm_init(VM *vm, char * filepath, Configs conf){
     vm->has_dbg_info = false;
 }
 
-#include <sys/time.h>
+#include <time.h>
 struct timespec start, end;
 
 static int64_t timespecDiff(struct timespec *timeA_p, struct timespec *timeB_p){

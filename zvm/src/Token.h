@@ -3,6 +3,7 @@
 
 #include "common/SV.h"
 #include "common/CommonStructs.h"
+#include <stdbool.h>
 
 typedef enum _TokenType _TokenType;
 

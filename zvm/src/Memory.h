@@ -4,6 +4,8 @@
 #include "common/ByteUtils.h"
 #include "OpCode.h"
 
+#include <stdbool.h>
+
 typedef struct MemorySlot MemorySlot;
 
 struct MemorySlot{

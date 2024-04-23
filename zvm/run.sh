@@ -1,5 +1,5 @@
 #!/bin/sh
 
 cd bin
-./zvm test.zexec 
+./zvm ../Examples/test.zexec 
 cd ..
